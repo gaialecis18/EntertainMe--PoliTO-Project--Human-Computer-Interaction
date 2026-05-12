@@ -1,8 +1,0 @@
-diff a/client/src/EntertainMe.css b/client/src/EntertainMe.css	(rejected hunks)
-@@ -120,5 +120,5 @@
- }
- .absoluteImage {
-   object-fit: cover;
--  height: 438px;
-+  height: 480px;
- }
