@@ -1,0 +1,177 @@
+.below-nav {
+  padding-top: 5rem;
+  
+}
+
+.btn-flat {
+  background-color: rgb(199, 198, 198);
+  color: black;
+  font-weight: bold;
+}
+
+.img {
+  width: 200px;
+  height: 150px;
+}
+
+.link {
+ color: #E9EFF0;
+ display: flex;
+}
+
+.link:hover {
+  color: #E9EFF0 !important;
+  display: flex;
+ }
+
+.linkHome {
+  color:  hsl(289, 58%, 18%);
+}
+
+.linkHome:hover {
+  color:  hsl(289, 58%, 18%);
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.infoPicture {
+  width: 105px;
+  height: 100px;
+}
+
+.btn-right {
+  background-color: rgb(199, 198, 198);
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0 1.5rem 1.5rem 0;
+}
+
+.btn-left {
+  background-color: rgb(199, 198, 198);
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0 1.5rem 1rem 1.5rem;
+}
+
+.platformImage {
+  /* position: absolute; */
+  border-radius: 50;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  /* width: 50px; */
+  height: 30px;
+}
+
+.btn-platform {
+  background-color: rgb(131, 126, 126);
+  color: black;
+  border: #000;
+  position: absolute;
+  border-radius: 50;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.toast {
+  position:absolute;
+  top: 86%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100000;
+
+  
+}
+
+.inputWithButton {
+  position: relative;
+  border: 0px;
+}
+
+.inputWithButton-Button {
+  position: absolute;
+  right: 1.4rem;
+  top: 3.6rem;
+}
+
+.background {
+  /* background: rgb(59, 80, 103); */
+  background: linear-gradient(
+    0deg,
+    rgba(11, 30, 36, 1) 0%,
+    rgb(59, 80, 103) 100%
+  );
+  height: 100vh;
+  background-attachment:scroll;
+  overflow-y: overlay;
+  overflow-x: clip;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+.absoluteImageContainer {
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  width: 100vw;
+}
+.absoluteImage {
+  object-fit: cover;
+  height: 720px;
+}
+
+.absoluteImageC {
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  width: 15.5vw;
+  padding-top: 8.1rem;
+}
+.absoluteI {
+  object-fit: cover;
+  height: 8vh;
+}
+
+.absoluteImageInfoC {
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 100vw;
+  height: 91.5vh;
+}
+.absoluteInfoI {
+  object-fit: cover;
+  height: 104vh;
+}
+.ArrowLeft{
+  color: #E9EFF0;
+  height:30px;
+  width:30px;
+}
